@@ -17,7 +17,7 @@
         <header class="header">
             <div class="conteiner nav">
             <nav class="nav">
-                <a class="logo" href="/">Web<span class="logoheader">Studio</span></a>
+                <a class="logo logoheader" href="/">Web<span class="sublogoheader">Studio</span></a>
                 <ul class="list nav-list">
                     <li class="item"><a class="link nav-link current" href="./index.html">Студія</a></li>
                     <li class="item"><a class="link nav-link" href="./portfolio.html">Портфоліо</a></li>
@@ -35,12 +35,14 @@
     <main class="main">
 <!-- hero section -->
             <section class="hero">
-                <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
+                <div class="conteiner hero">
+                    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                     <button class="hero-button" type="button">Замовити послугу</button>
+                </div>
             </section>
 <!-- features section -->
-        <div class="conteiner">
             <section class="features">
+                <div class="conteiner">
                 <h2 class="features-title visually-hidden">Особливості</h2>
                 <ul class="list features-list">
                     <li class="features-item item">
@@ -60,8 +62,8 @@
                         <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
+                </div>
             </section>
-        </div>
 <!-- examples section -->
         
         <section class="examples">
@@ -82,23 +84,31 @@
                 <ul class="list team-list">
                     <li class="team-item item">
                         <img src="./images/team1.jpg" alt="Продакт дизайнер" width="270">
-                        <h3 class="team-subtitle">Ігор Дем'яненко</h3>
-                        <p class="team-text">Product Designer</p>
+                        <div class="team desc">
+                            <h3 class="team-subtitle">Ігор Дем'яненко</h3>
+                            <p class="team-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item item">
                         <img src="./images/team2.jpg" alt="Фронтенд розробник" width="270">
-                        <h3 class="team-subtitle">Ольга Рєпіна</h3>
-                        <p class="team-text">Frontend Developer</p>
+                        <div class="team desc">
+                            <h3 class="team-subtitle">Ольга Рєпіна</h3>
+                            <p class="team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item item">
                         <img src="./images/team3.jpg" alt="Маркетинг" width="270">
-                        <h3 class="team-subtitle">Микола Тарасов</h3>
-                        <p class="team-text">Marketing</p>
+                        <div class="team desc">
+                            <h3 class="team-subtitle">Микола Тарасов</h3>
+                            <p class="team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item item">
                         <img src="./images/team4.jpg" alt="Дизайнер" width="270">
-                        <h3 class="team-subtitle">Михайло Єрмаков</h3>
-                        <p class="team-text">UI Designer</p>
+                        <div class="team desc">
+                            <h3 class="team-subtitle">Михайло Єрмаков</h3>
+                            <p class="team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
                 </div>
@@ -107,7 +117,7 @@
 <!-- Футер -->
     <footer class="footer">
          <div class="conteiner">
-            <a class="logo" href="/">Web<span class="logofooter">Studio</span></a>
+            <a class="logo logofooter" href="/">Web<span class="sublogofooter">Studio</span></a>
             <address class="address">
                 <ul class="list address-list">
                     <li class="address-item item"><a class="link address-map" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
